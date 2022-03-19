@@ -64,27 +64,29 @@ points:
           row_net: P5
         top:
           row_net: P4
+        numbers:
+          row_net: P7
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-1.5 kx, -1 ky]
+        shift: [-2 kx, -1.1 ky]
       columns:
         near:
           spread: kx
-          rotate: -15
-          origin: [-0.5 kx, -0.5 ky]
+          rotate: 0
+          origin: [0 kx, 0 ky]
           key:
             column_net: P18
         home:
           spread: kx
-          rotate: -15
-          origin: [-0.5 kx, -0.5 ky]
+          rotate: -0
+          origin: [0 kx, 0 ky]
           key:
             column_net: P15
         far:
           spread: kx
-          rotate: -15
-          origin: [-0.5 kx, -0.5 ky]
+          rotate: -0
+          origin: [0 kx, 0 ky]
           key:
             column_net: P14
       rows:
